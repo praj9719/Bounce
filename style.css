@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+.main{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 500px;
+    height: 500px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+#ball_1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    height: 50px;
+    width: 50px;
+    background-color: bisque;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#ball_2{
+    position: fixed;
+    top: 50%;
+    left: 70%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#ball_3{
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    height: 70px;
+    width: 70px;
+    background-color: lightpink;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.toolbar{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.btn{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid white;
+    margin: 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
